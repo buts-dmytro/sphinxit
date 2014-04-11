@@ -25,6 +25,11 @@ def int_from_digit(value, is_strict=False):
         else:
             return None
 
+def int_or_string(value, is_strict=False):
+    try:
+        return int(value)
+    except (ValueError, TypeError):
+        return '\'%s\'' % value
 
 def string_from_string(value, is_strict=False):
     if not isinstance(value, six.string_types):

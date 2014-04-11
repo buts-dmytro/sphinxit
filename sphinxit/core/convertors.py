@@ -18,6 +18,7 @@ from sphinxit.core.constants import ESCAPED_CHARS, RESERVED_KEYWORDS
 from sphinxit.core.exceptions import SphinxQLSyntaxException
 from sphinxit.core.helpers import (
     list_of_integers_only,
+    int_or_string,
     int_from_digit,
     unix_timestamp
 )
