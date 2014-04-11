@@ -2,7 +2,6 @@
 /dist
 /docs/_build
 /.idea
-.idea/
 /.ropeproject
 *.egg-info
 *.egg
