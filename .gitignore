@@ -1,8 +1,7 @@
 /build
 /dist
 /docs/_build
-/.idea
-.idea/
+/sphinxit/.idea
 /.ropeproject
 *.egg-info
 *.egg
