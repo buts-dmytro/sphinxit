@@ -45,7 +45,7 @@ class FilterCtx(CtxMixin):
     def __enter__(self):
         v_attr = self.v_attr
         if isinstance(v_attr, six.string_types):
-            v_attr = int_from_digit(
+            v_attr = int_or_string(
                 v_attr,
                 is_strict=self.is_strict
             )
